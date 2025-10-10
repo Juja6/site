@@ -75,6 +75,20 @@ h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
 }
+.lang-switcher {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin: 0;
+}
+.lang-switcher a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.lang-switcher a.active {
+  text-decoration: underline;
+}
 
 /* PHP Email Form Messages
 ------------------------------*/
